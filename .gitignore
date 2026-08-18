@@ -1,0 +1,25 @@
+# Vivado / FPGA build artifacts
+*.log
+*.jou
+*.str
+*.dir
+*.pb
+*.rpt
+*.xml
+.Xil/
+hd_visual/
+build/
+*.ip_user_files/
+*.hw/
+*.sim/
+*.runs/
+*.cache/
+*.ip/
+*.xpr
+
+# Python / PyTorch artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+model_q44.pth
